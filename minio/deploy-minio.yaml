@@ -16,7 +16,7 @@ spec:
       volumes:
         - name: data
           emptyDir:
-            sizeLimit: 500Mi
+            sizeLimit: 1500Mi
       containers:
         - name: minio
           image: quay.io/minio/minio:latest
