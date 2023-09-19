@@ -2,7 +2,7 @@
 apiVersion: metallb.io/v1beta1
 kind: IPAddressPool
 metadata:
-  name: nat
+  name: production
   namespace: metallb-system
 spec:
   addresses:
